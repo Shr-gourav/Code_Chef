@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+
+void Richie_Rich(){
+    int A,B,X;
+	cin>>A>>B>>X;
+	int nev = B-A;
+	cout<<nev/X<<endl;
+    }
+
+
+
+int main() {
+	// your code goes here
+	int testcase;
+	cin>>testcase;
+	while(testcase--){
+	    
+	    Richie_Rich();
+	}
+	return 0;
+}
