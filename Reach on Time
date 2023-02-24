@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void Time(){
+    int n;
+    cin>>n;
+    if(n>30){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
+}
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    Time();
+	}
+	return 0;
+}
